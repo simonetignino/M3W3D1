@@ -48,3 +48,43 @@ button.d-flex {
 .color-grey {
     color: rgb(176, 159, 289);
 }
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.icona2 i {
+    font-size: 14px;
+}
+
+.icona2 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 237, 219) ;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: rgb(190, 145, 84) ;
+}
+
+.titolo {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.descrizione {
+    font-size: 14px;
+    color: grey ;
+    font-weight: 100;
+}
+
+/* per mettere un "margine" su tutto, bisogna inserire tutto all'intenro di un div con il tag container. Per rendere lo sfondo uniforme, bisogna fare un div "sfondo" con all'interno il div container dove inserirò il tutto */
