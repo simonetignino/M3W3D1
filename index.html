@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="container">
-        
+
     </div>
     <!-- NAV BAR -->
     <nav>
@@ -89,16 +90,17 @@
                                 <div class="icona">
                                     <i class="fa-regular fa-bell"></i>
                                 </div>
-                                <span class="position-absolute top-0 start-50 translate-middle p-1 border border-light rounded-circle">
+                                <span
+                                    class="position-absolute top-0 start-50 translate-middle p-1 border border-light rounded-circle">
                                     <span class="visually-hidden">New alerts</span>
-                                  </span>
+                                </span>
                             </button>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                          </div>
+                        </div>
                         <div class="dropdown dropstart">
                             <button class="d-flex" data-bs-toggle="dropdown" aria-expanded="false">
                                 <div class="avatar-container">
@@ -106,11 +108,11 @@
                                 </div>
                             </button>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,53 +121,149 @@
 
     <!-- JUMBOTRON -->
     <header>
-        <div class="p-5 mb-4 d-flex bg-viola">
-            <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4 color-grey">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-light btn-lg" type="button">Browse Courses</button>
-              <button type="button" class="btn btn-light btn-lg">Are you an instructor?</button>
-            </div>
-            <div class="jumbo-img">
-                <img src="assets/hero-img.png" alt="">
-            </div>
-          </div>
-    </header>
-
-    <!-- parte inferiore dell'hero -->
-    <section class="info">
-        <div class="info-container d-flex justify-content-center">
-            <div class="row">
-                <div class="col d-flex align-items-center ">
-                    <div class="icona2">
-                        <i class="bi bi-camera-video"></i>
-                    </div>
-                    <div class="info2">
-                        <span class="titolo">30,000 online courses</span>
-                        <span class="descrizione">Enjoy a variety of fresh topics</span>
-                    </div>
+        <div class="bg-viola">
+            <div class="d-flex bg-viola" id="jumbohero">
+                <div class="container py-5">
+                    <h1 class="display-5 fw-bold">Welcome Web Students!</h1>
+                    <p class="col-md-8 fs-4 color-grey">Hand-picked Instructor and expertly crafted courses, designed
+                        for the modern students and entrepreneur.</p>
+                    <button class="btn btn-light btn-lg" type="button">Browse Courses</button>
+                    <button type="button" class="btn btn-light btn-lg">Are you an instructor?</button>
                 </div>
-                <div class="col d-flex align-items-center ">
-                    <div class="icona2">
-                        <i class="bi bi-camera-video"></i>
-                    </div>
-                    <div class="info2">
-                        <span class="titolo">30,000 online courses</span>
-                        <span class="descrizione">Enjoy a variety of fresh topics</span>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-center ">
-                    <div class="icona2">
-                        <i class="bi bi-camera-video"></i>
-                    </div>
-                    <div class="info2">
-                        <span class="titolo">30,000 online courses</span>
-                        <span class="descrizione">Enjoy a variety of fresh topics</span>
-                    </div>
+                <div class="jumbo-img">
+                    <img src="assets/hero-img.png" alt="">
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- parte inferiore dell'hero -->
+        <section class="pt-4 pb-4 info shadow-sm">
+            <div class="info-container container" id="jumbohero">
+                <div class="row">
+                    <div class="col d-flex align-items-center">
+                        <div class="icona2">
+                            <i class="bi bi-camera-video"></i>
+                        </div>
+                        <div class="info2">
+                            <span class="titolo">30,000 online courses</span>
+                            <span class="descrizione">Enjoy a variety of fresh topics</span>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center ">
+                        <div class="icona2">
+                            <i class="bi bi-camera-video"></i>
+                        </div>
+                        <div class="info2">
+                            <span class="titolo">30,000 online courses</span>
+                            <span class="descrizione">Enjoy a variety of fresh topics</span>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center ">
+                        <div class="icona2">
+                            <i class="bi bi-camera-video"></i>
+                        </div>
+                        <div class="info2">
+                            <span class="titolo">30,000 online courses</span>
+                            <span class="descrizione">Enjoy a variety of fresh topics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <!-- sezione dei caroselli -->
+        <div class="bg-grey">
+            <div class="container">
+                <div class="h3 mt-5">Recommended to you</div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">An item</li>
+                                                <li class="list-group-item">A second item</li>
+                                                <li class="list-group-item">A third item</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">An item</li>
+                                                <li class="list-group-item">A second item</li>
+                                                <li class="list-group-item">A third item</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">An item</li>
+                                                <li class="list-group-item">A second item</li>
+                                                <li class="list-group-item">A third item</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">An item</li>
+                                                <li class="list-group-item">A second item</li>
+                                                <li class="list-group-item">A third item</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                        </div>
+                        <div class="carousel-item">
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <script src="https://kit.fontawesome.com/deaa9508d4.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
