@@ -43,6 +43,9 @@ button.d-flex {
 .bg-viola {
     background-color: rgb(111, 82, 245);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .color-grey {
@@ -87,4 +90,9 @@ button.d-flex {
     font-weight: 100;
 }
 
+#jumbohero {
+    max-width: 1140px;
+}
+
 /* per mettere un "margine" su tutto, bisogna inserire tutto all'intenro di un div con il tag container. Per rendere lo sfondo uniforme, bisogna fare un div "sfondo" con all'interno il div container dove inserirò il tutto */
+
