@@ -64,7 +64,7 @@ button.d-flex {
 }
 
 .icona2 i {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .icona2 {
@@ -80,12 +80,12 @@ button.d-flex {
 }
 
 .titolo {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .descrizione {
-    font-size: 14px;
+    font-size: 16px;
     color: grey ;
     font-weight: 100;
 }
@@ -94,5 +94,40 @@ button.d-flex {
     max-width: 1140px;
 }
 
+.bg-grey {
+    background-color: #F5F4F8;
+}
+
 /* per mettere un "margine" su tutto, bisogna inserire tutto all'intenro di un div con il tag container. Per rendere lo sfondo uniforme, bisogna fare un div "sfondo" con all'interno il div container dove inserirò il tutto */
 
+.carousel-control-prev {
+    width: fit-content;
+    color: grey;
+    font-size: 26px;
+}
+
+.carousel-control-next {
+    width: fit-content;
+    color: grey;
+    font-size: 26px;
+}
+
+.carousel-control-prev:hover {
+    color: grey;
+}
+
+.carousel-control-next:hover {
+    color: grey;
+}
+
+.carousel-control-prev:focus {
+    color: grey;
+}
+
+.carousel-control-next:focus{
+    color: grey;
+}
+
+.jumbo-img img {
+    max-width: 100%;
+}

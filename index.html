@@ -25,7 +25,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-6 col-md-4 col-lg-3lapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -84,7 +84,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="d-flex justify-content-center align-items-center ">
+                    <div class="d-flex justify-content-lg-center align-items-center justify-content-sm-start ">
                         <div class="dropdown dropstart">
                             <button class="d-flex" id="bell" data-bs-toggle="dropdown" aria-expanded="false">
                                 <div class="icona">
@@ -122,7 +122,7 @@
     <!-- JUMBOTRON -->
     <header>
         <div class="bg-viola">
-            <div class="d-flex bg-viola" id="jumbohero">
+            <div class="d-flex flex-column flex-md-row" id="jumbohero">
                 <div class="container py-5">
                     <h1 class="display-5 fw-bold">Welcome Web Students!</h1>
                     <p class="col-md-8 fs-4 color-grey">Hand-picked Instructor and expertly crafted courses, designed
@@ -137,10 +137,10 @@
         </div>
 
         <!-- parte inferiore dell'hero -->
-        <section class="pt-4 pb-4 info shadow-sm">
+        <section class="mt-4 info shadow-sm">
             <div class="info-container container" id="jumbohero">
                 <div class="row">
-                    <div class="col d-flex align-items-center">
+                    <div class="col-12 col-md-4 d-flex align-items-center mb-4" >
                         <div class="icona2">
                             <i class="bi bi-camera-video"></i>
                         </div>
@@ -149,7 +149,7 @@
                             <span class="descrizione">Enjoy a variety of fresh topics</span>
                         </div>
                     </div>
-                    <div class="col d-flex align-items-center ">
+                    <div class="col-12 col-md-4 d-flex align-items-center mb-4 ">
                         <div class="icona2">
                             <i class="bi bi-camera-video"></i>
                         </div>
@@ -158,7 +158,7 @@
                             <span class="descrizione">Enjoy a variety of fresh topics</span>
                         </div>
                     </div>
-                    <div class="col d-flex align-items-center ">
+                    <div class="col-12 col-md-4 d-flex align-items-center mb-4 ">
                         <div class="icona2">
                             <i class="bi bi-camera-video"></i>
                         </div>
@@ -176,87 +176,79 @@
     <main>
         <!-- sezione dei caroselli -->
         <div class="bg-grey">
-            <div class="container">
-                <div class="h3 mt-5">Recommended to you</div>
+            <div class="container" id="jumbohero">
+                <div class="h3 pt-5 ">Recommended to you</div>
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
-                                            </ul>
-                                            <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
-                                            </div>
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card mb-3 ">
+                                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
-                                            </ul>
-                                            <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
-                                            </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card mb-3 ">
+                                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets/course-node.jpg" class="card-img-top" alt="...">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
-                                            </ul>
-                                            <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
-                                            </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card mb-3 ">
+                                        <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card">
-                                            <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
-                                            </ul>
-                                            <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
-                                            </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="card mb-3 ">
+                                        <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-
-                        </div>
-                        <div class="carousel-item">
-
-                        </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span aria-hidden="true"><i class="fa-solid fa-circle-arrow-left"></i></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span aria-hidden="true"><i class="fa-solid fa-circle-arrow-right"></i></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
